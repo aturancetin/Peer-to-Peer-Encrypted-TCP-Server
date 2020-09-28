@@ -1,6 +1,6 @@
 # Peer-to-Peer-Encrypted-TCP-Server
 
-The aim of this project is to set up a TCP based server for more than one client that can send and receive messages from them.
+The aim of this project is to set up a TCP based server for multiple clients that can send and receive messages between each other.
 
 ## How to compile ?
 
@@ -17,7 +17,7 @@ g++ client.cpp -o client -lpthread -lsqlite3
 
 ## How to use ?
 
-In order to use the server, firstly, you must register with a username and a password.<br/>
+In order to use the server, you must register with a username and a password.<br/>
 Once registration is complete, your username and your hashed password is saved to the server.<br/>
 After you register, client side will be closed automatically for you to login to server. Before you log in, close the server and rerun the server.(This will update the users database.)<br/>
 Log in to the server.
